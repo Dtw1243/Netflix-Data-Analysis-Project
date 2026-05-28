@@ -13,3 +13,4 @@ st.subheader("Summary Stats")
 st.write(df.describe())
 
 st.line_chart(df.select_dtypes(include='number'))
+ 
